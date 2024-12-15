@@ -3,6 +3,8 @@ import TodoTable from "./components/TodoTable";
 
 function App() {
   const todos = [
+    { rowNumber: 1, rowDescription: "Feeding cat's", rowAssign: "Rakhmat" },
+    { rowNumber: 2, rowDescription: "Service motorcycle", rowAssign: "Malik" },
     { rowNumber: 3, rowDescription: "Reading book", rowAssign: "Leon" },
     {
       rowNumber: 4,
